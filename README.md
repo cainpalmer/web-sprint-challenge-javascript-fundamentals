@@ -26,11 +26,18 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+
 2. Explain the difference between a callback and a higher order function.
+
 
 3. Explain what a closure is.
 
+
 4. Describe the four principles of the 'this' keyword.
+    (1)Window Binding defaults the window to strict code and labels code as undefined if no rules apply.
+    (2)Implicit Binding refers to the left of a dot when a function is invoked, mainly to identify a 'this' property.
+    (3)Explicit Binding calls, applies, or binds functions to newly created objects.
+    (4)New Binding can be written in two ways to invoke a contructor function using a 'this' property to a newly created object.
 
 5. Why do we need super() in an extended class?
 
